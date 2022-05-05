@@ -12,12 +12,6 @@ First of all, we extract the coeffiecients of a polynomial in a Numpy array with
 
 For example, if we have the equation ![Figure](https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;x^4-x^3-x^2-x+1=0) the result of the fuction ```all_derivative``` is 
 
-![Figure](https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space; \left[ \begin{array}{ccccc}
-1 & -1 & -1 & -1 & 1 \\
-0 & 4 & -3 &-2 & -1 \\
-0 & 0 & 12 & -9 & -2 \\
-\color{red} 0 & \color{red} 0 & \color{red} 0 & \color{red}{24} &\color{red}{-9} \\
-\color{red} 0 & \color{red} 0 & \color{red} 0 & \color{red} 0 & \color{red}{24}
- \end{array}\right] )
+<img src="https://latex.codecogs.com/png.image?\dpi{110}&space;\bg_white&space;\left[\begin{array}{ccccc}1&-1&-1&-1&1\\0&4&-3&-2&-1\\0&0&12&-9&-2\\\color{red}0&\color{red}0&\color{red}0&\color{red}{24}&\color{red}{-9}\\\color{red}0&\color{red}0&\color{red}0&\color{red}0&\color{red}{24}\end{array}\right]">
 
 The red lines are not calculated by the fuction because they are not necessary, due to the definition of ```solutions_poly_second_degree```.
